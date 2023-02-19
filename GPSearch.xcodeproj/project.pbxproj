@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63488A43765E3053A22CFD53 /* libPods-GPSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD98355BA150EA7352FC47B4 /* libPods-GPSearch.a */; };
+		75228ED37088919D910C6A15 /* libPods-GPSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D5588C236AC71997702C3 /* libPods-GPSearchTests.a */; };
+		A0426BA19BA06582BEBDFE37 /* libPods-GPSearch-GPSearchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFE2834FA373AE265D32997 /* libPods-GPSearch-GPSearchUITests.a */; };
 		C1EC244F299EB2B5004FA439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC244E299EB2B5004FA439 /* AppDelegate.swift */; };
 		C1EC2451299EB2B5004FA439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC2450299EB2B5004FA439 /* SceneDelegate.swift */; };
 		C1EC2453299EB2B5004FA439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC2452299EB2B5004FA439 /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		C1EC2466299EB2B7004FA439 /* GPSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC2465299EB2B7004FA439 /* GPSearchTests.swift */; };
 		C1EC2470299EB2B7004FA439 /* GPSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC246F299EB2B7004FA439 /* GPSearchUITests.swift */; };
 		C1EC2472299EB2B7004FA439 /* GPSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC2471299EB2B7004FA439 /* GPSearchUITestsLaunchTests.swift */; };
+		C1EC247F299EB425004FA439 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC247E299EB425004FA439 /* ResultViewController.swift */; };
+		C1EC2481299EBE2F004FA439 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC2480299EBE2F004FA439 /* GooglePlacesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28A2CBBFF45A09165E55CEB4 /* Pods-GPSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearchTests.release.xcconfig"; path = "Target Support Files/Pods-GPSearchTests/Pods-GPSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DDC0AEFEE0A105A382674AE /* Pods-GPSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-GPSearchTests/Pods-GPSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7FF4FD7056E1DF94D2BB77 /* Pods-GPSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearch.debug.xcconfig"; path = "Target Support Files/Pods-GPSearch/Pods-GPSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		AD98355BA150EA7352FC47B4 /* libPods-GPSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D5588C236AC71997702C3 /* libPods-GPSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFE2834FA373AE265D32997 /* libPods-GPSearch-GPSearchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSearch-GPSearchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC244B299EB2B5004FA439 /* GPSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC244E299EB2B5004FA439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EC2450299EB2B5004FA439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		C1EC246B299EB2B7004FA439 /* GPSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EC246F299EB2B7004FA439 /* GPSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSearchUITests.swift; sourceTree = "<group>"; };
 		C1EC2471299EB2B7004FA439 /* GPSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1EC247E299EB425004FA439 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C1EC2480299EBE2F004FA439 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
+		D83FBD3C5A661C3AECC89A2E /* Pods-GPSearch-GPSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearch-GPSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GPSearch-GPSearchUITests/Pods-GPSearch-GPSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6BB25528988D1AE5D7FD400 /* Pods-GPSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearch.release.xcconfig"; path = "Target Support Files/Pods-GPSearch/Pods-GPSearch.release.xcconfig"; sourceTree = "<group>"; };
+		FAE7AEDA437D177F9E9B4EAD /* Pods-GPSearch-GPSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSearch-GPSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-GPSearch-GPSearchUITests/Pods-GPSearch-GPSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63488A43765E3053A22CFD53 /* libPods-GPSearch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75228ED37088919D910C6A15 /* libPods-GPSearchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0426BA19BA06582BEBDFE37 /* libPods-GPSearch-GPSearchUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6582EED5D57F9C1C155BF20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7FF4FD7056E1DF94D2BB77 /* Pods-GPSearch.debug.xcconfig */,
+				E6BB25528988D1AE5D7FD400 /* Pods-GPSearch.release.xcconfig */,
+				D83FBD3C5A661C3AECC89A2E /* Pods-GPSearch-GPSearchUITests.debug.xcconfig */,
+				FAE7AEDA437D177F9E9B4EAD /* Pods-GPSearch-GPSearchUITests.release.xcconfig */,
+				4DDC0AEFEE0A105A382674AE /* Pods-GPSearchTests.debug.xcconfig */,
+				28A2CBBFF45A09165E55CEB4 /* Pods-GPSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1EC2442299EB2B5004FA439 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				C1EC2464299EB2B7004FA439 /* GPSearchTests */,
 				C1EC246E299EB2B7004FA439 /* GPSearchUITests */,
 				C1EC244C299EB2B5004FA439 /* Products */,
+				6582EED5D57F9C1C155BF20E /* Pods */,
+				E29733D526ED80708BC6B07F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +140,8 @@
 				C1EC2457299EB2B7004FA439 /* Assets.xcassets */,
 				C1EC2459299EB2B7004FA439 /* LaunchScreen.storyboard */,
 				C1EC245C299EB2B7004FA439 /* Info.plist */,
+				C1EC247E299EB425004FA439 /* ResultViewController.swift */,
+				C1EC2480299EBE2F004FA439 /* GooglePlacesManager.swift */,
 			);
 			path = GPSearch;
 			sourceTree = "<group>";
@@ -127,6 +163,16 @@
 			path = GPSearchUITests;
 			sourceTree = "<group>";
 		};
+		E29733D526ED80708BC6B07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD98355BA150EA7352FC47B4 /* libPods-GPSearch.a */,
+				BAFE2834FA373AE265D32997 /* libPods-GPSearch-GPSearchUITests.a */,
+				AF1D5588C236AC71997702C3 /* libPods-GPSearchTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EC2475299EB2B7004FA439 /* Build configuration list for PBXNativeTarget "GPSearch" */;
 			buildPhases = (
+				FE900637F1885F8EB0BB7DB1 /* [CP] Check Pods Manifest.lock */,
 				C1EC2447299EB2B5004FA439 /* Sources */,
 				C1EC2448299EB2B5004FA439 /* Frameworks */,
 				C1EC2449299EB2B5004FA439 /* Resources */,
+				8503CFCB9EBF48DF8965D7FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EC2478299EB2B7004FA439 /* Build configuration list for PBXNativeTarget "GPSearchTests" */;
 			buildPhases = (
+				B8384A088572428B826ADEB2 /* [CP] Check Pods Manifest.lock */,
 				C1EC245D299EB2B7004FA439 /* Sources */,
 				C1EC245E299EB2B7004FA439 /* Frameworks */,
 				C1EC245F299EB2B7004FA439 /* Resources */,
@@ -169,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EC247B299EB2B7004FA439 /* Build configuration list for PBXNativeTarget "GPSearchUITests" */;
 			buildPhases = (
+				1AA15A72482D83C2C9CFB598 /* [CP] Check Pods Manifest.lock */,
 				C1EC2467299EB2B7004FA439 /* Sources */,
 				C1EC2468299EB2B7004FA439 /* Frameworks */,
 				C1EC2469299EB2B7004FA439 /* Resources */,
+				59591A69F4C0220EE5A746CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +304,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AA15A72482D83C2C9CFB598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSearch-GPSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59591A69F4C0220EE5A746CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSearch-GPSearchUITests/Pods-GPSearch-GPSearchUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSearch-GPSearchUITests/Pods-GPSearch-GPSearchUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPSearch-GPSearchUITests/Pods-GPSearch-GPSearchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8503CFCB9EBF48DF8965D7FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSearch/Pods-GPSearch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSearch/Pods-GPSearch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPSearch/Pods-GPSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8384A088572428B826ADEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE900637F1885F8EB0BB7DB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1EC2447299EB2B5004FA439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +415,8 @@
 				C1EC2453299EB2B5004FA439 /* ViewController.swift in Sources */,
 				C1EC244F299EB2B5004FA439 /* AppDelegate.swift in Sources */,
 				C1EC2451299EB2B5004FA439 /* SceneDelegate.swift in Sources */,
+				C1EC247F299EB425004FA439 /* ResultViewController.swift in Sources */,
+				C1EC2481299EBE2F004FA439 /* GooglePlacesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +588,7 @@
 		};
 		C1EC2476299EB2B7004FA439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7FF4FD7056E1DF94D2BB77 /* Pods-GPSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +616,7 @@
 		};
 		C1EC2477299EB2B7004FA439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BB25528988D1AE5D7FD400 /* Pods-GPSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +644,7 @@
 		};
 		C1EC2479299EB2B7004FA439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDC0AEFEE0A105A382674AE /* Pods-GPSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +664,7 @@
 		};
 		C1EC247A299EB2B7004FA439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A2CBBFF45A09165E55CEB4 /* Pods-GPSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +684,7 @@
 		};
 		C1EC247C299EB2B7004FA439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83FBD3C5A661C3AECC89A2E /* Pods-GPSearch-GPSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +702,7 @@
 		};
 		C1EC247D299EB2B7004FA439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE7AEDA437D177F9E9B4EAD /* Pods-GPSearch-GPSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
